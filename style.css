@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+  /* font-family: 'Oxygen', sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  /* background-image: url('https://images.unsplash.com/photo-1649317464099-53b410990917?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'); */
+  background-image: url('https://images.hdqwalls.com/download/clouds-summer-weather-5k-1b-1920x1080.jpg');
+}
+
+.card {
+  background-color: rgb(48, 170, 221, 0.7);
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    /* width: 10px; */
+}
+
+button:hover{
+    background-color: #e6e6ea;
+    cursor: pointer;
+}
+
+.search-bar{
+    border: none;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    background-color: #7c7c7c2b;
+    font-size: 100%;
+}
